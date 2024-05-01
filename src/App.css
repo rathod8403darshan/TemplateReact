@@ -1,0 +1,154 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#hovertab:hover #imgZoom{
+  scale: 1.3;
+  transition: all 0.3s;
+}
+#imgZoom{
+  transition: all 0.3s;
+}
+#hovertab{
+  overflow: hidden;
+  transition: all 0.3s;
+}
+#hovertab:hover #hovcol{
+    background-color: rgba(0, 0, 0, 0.438);
+    display: block;
+    transition: all 0.3s;
+}
+#hovcol{
+  transition: all 0.3s;
+  display: none;
+}
+.nav-color.active{
+  background-color: #e03a3c !important;
+  color: white !important;
+}
+.nav-color{
+     color: black !important;  
+}
+#beforeh1{
+  position: relative;
+  padding-bottom: 10px;
+
+}
+#beforeh1::before{
+      content: '';
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      height: 3px;
+      width: 6%; 
+      background-color: #e03a3c;
+}
+#borderbottom:hover{
+  border-bottom: 1px solid white;
+  display: inline;
+  transition: all 0.5s ease-in-out;
+}
+.main1:hover{
+   opacity: 0.9;
+   transition: all 0.2s;
+}
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+.iconhov{
+    background-color: #e03a3c !important;
+    transition: all 0.3s;
+}
+.iconhov:hover{
+    background-color: black !important;
+}
+#iconhover1{
+  position: absolute;
+  width: 60%;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  transition: all 0.3s ease;
+  opacity: 0;
+}
+
+.hovercard:hover #iconhover1{
+      top: 67%;
+  opacity: 1;
+
+}
+#space-ul li{
+       margin-bottom: 10px;
+       font-size: 15px;
+}
+.footerul li{
+  margin-bottom: 10px;
+  list-style-type: none;
+  transition: all 0.3s;
+  color: rgba(255, 255, 255, 0.556);
+}
+.footerul li:hover{
+  cursor: pointer;
+  color: white;
+}
+.afterh4::before {
+  content: "";
+  position: absolute;
+  top: 110%;
+  left: 0;
+  width: 30px;
+  height: 2px;
+  background-color: #e03a3c;
+}
+.afterh4 {
+  position: relative;
+}
+.Subscribe{
+    background-color: #e03a3c;
+    color: white;
+    transition: all 0.5s;
+}
+.Subscribe:hover{
+    opacity: 0.9;
+}
+.inpform{
+    outline: none;
+}
+.icon a{
+    background-color: rgba(255, 255, 255, 0.137);
+    transition: all 0.2s;
+}
+.icon a:hover{
+    background-color:#e03a3c;
+}
+
+
+.btn-secondary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #6c757d00 !important;
+  --bs-btn-border-color: #6c757d00 !important;
+  --bs-btn-hover-color: rgb(255, 255, 255) !important;
+  --bs-btn-hover-bg: #5c636a00 !important;
+  --bs-btn-hover-border-color: #565e6400 !important;
+  --bs-btn-focus-shadow-rgb: none !important;
+  --bs-btn-active-color: rgb(255, 255, 255) !important;
+  --bs-btn-active-bg: #565e6400 !important;
+  --bs-btn-active-border-color: #51585e00 !important;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0) !important;
+  --bs-btn-disabled-color: rgb(255, 255, 255);
+  --bs-btn-disabled-bg: #6c757d00 !important;
+  --bs-btn-disabled-border-color: #6c757d00 !important;
+  margin-top: -8px;
+}
+.btn1111{
+  margin-top: -10px;
+  background-color: #e03a3c !important;
+}
+.btn1111:hover{
+  background-color: rgba(0, 0, 0, 0.695) !important;
+}
+.btnabout:hover{
+    background-color: #e03a3c !important;
+}
